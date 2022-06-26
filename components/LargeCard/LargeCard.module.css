@@ -1,0 +1,49 @@
+.LargeCardContainer {
+  position: relative;
+  min-height: 500px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+}
+
+.LargeCardTag {
+  position: absolute;
+  background: var(--light-blue);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+  padding: 0 0.7rem;
+  right: 20px;
+  margin-top: -10px;
+  border-radius: 25px;
+}
+
+.LargeCardTextContainer {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.LargeCardTextContainer a h1 {
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.LargeCardTextContainer p {
+  font-family: Proza Libre;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.LargeCardAuthor {
+  background: var(--text-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}

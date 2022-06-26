@@ -1,0 +1,45 @@
+.NavContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: var(--nav-height);
+  box-shadow: var(--nav-shadow);
+}
+
+.NavLinksContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1.4rem;
+}
+
+.NavLinks {
+  font-size: 1rem;
+  color: var(--nav-link-text-color);
+  font-weight: 500;
+  font-family: "Gilroy";
+  line-height: 19px;
+}
+
+.NavButtonContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+}
+
+.NavLoginButton,
+.NavFreeTrailButton {
+  font-size: 1rem;
+  color: var(--blue);
+  font-weight: 700;
+  font-family: "Gilroy";
+  line-height: 19px;
+  border: 1px solid var(--blue);
+  border-radius: 6px;
+  padding: 0.5rem 1.5rem;
+}
+
+.NavFreeTrailButton {
+  background: linear-gradient(92.85deg, #444bab 3.19%, #3e8ebc 100%);
+  color: white;
+}

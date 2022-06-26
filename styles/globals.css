@@ -1,9 +1,8 @@
-html,
-body {
-  padding: 0;
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
 }
 
 a {
@@ -11,6 +10,46 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+:root {
+  --blue: #444bab;
+  --light-blue: #61a2c8;
+  --text-gradient: linear-gradient(180deg, #444bab 0%, #3e8ebc 100%);
+
+  --h2-color: #4f516b;
+  --home-tag-color-1: #65677e;
+  --home-tag-color-2: #aeafb1;
+
+  --nav-height: 80px;
+  --nav-shadow: 0px 4px 5px rgba(0, 0, 0, 0.03);
+  --nav-link-text-color: #4f516b;
+
+  --footer-h2-color: #4f516b;
+  --footer-h3-color: #505050;
+  --footer-p-color: #505050;
+  --footer-link-color: #4f516b;
+  --footer-social-icons-bg: #fafafb;
+
+  --footer-copyright-text: #66747b;
+  --footer-top-border-color: #848dc7;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../public/gilroy/Gilroy-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../public/gilroy/Gilroy-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy Bold";
+  src: url("../public/gilroy/Gilroy-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
 }

@@ -1,0 +1,10 @@
+.Tags {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: var(--home-tag-color-1);
+}
+
+.TagCount {
+  color: var(--home-tag-color-2);
+}

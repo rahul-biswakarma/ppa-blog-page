@@ -1,0 +1,36 @@
+.LatestArticleContainer {
+  display: grid;
+  grid-template-columns: 60% auto;
+  column-gap: 4rem;
+  padding: 6rem 4rem;
+  box-shadow: 0px 6px 5px #ebecff;
+}
+
+.LargeCardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.TagContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.TagContainer h2 {
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 39px;
+  color: var(--h2-color);
+}
+
+.Tags {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09);
+}
